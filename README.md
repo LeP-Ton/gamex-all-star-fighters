@@ -1,5 +1,7 @@
 # GameX《全明星格斗》
 
+[GitHub 公有仓库](https://github.com/LeP-Ton/gamex-all-star-fighters)
+
 原创 PC 浏览器 2D 格斗游戏的首场可玩垂直切片：**路人甲 VS 李铁**。
 
 当前可玩内容已落地，但**不是完整三 Boss 游戏，也尚未达到《死神 VS 火影》成熟版本的动画品质**。按照任务书的顺序，先完善首场动画与手感，再制作后续两名 Boss。详细边界见 [质量差距](docs/QUALITY_GAPS.md)。
@@ -11,6 +13,8 @@
 需要 Node.js 20.19+（本次验证为 20.20.2）。
 
 ```sh
+git clone https://github.com/LeP-Ton/gamex-all-star-fighters.git
+cd gamex-all-star-fighters
 npm ci
 npm run dev
 ```
