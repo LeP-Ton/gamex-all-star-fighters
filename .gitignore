@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+playwright-report/
+test-results/
+*.local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+npm-debug.log*
